@@ -34,7 +34,7 @@ Repo ini adalah monorepo yang berisi tiga aplikasi utama:
 2. **gorm.io/gorm v1.25.10**  
    ORM untuk Go. Mempermudah manipulasi database, query builder, dan migrasi schema tanpa harus menulis SQL mentah secara manual, tapi tetap fleksibel.
 
-### Next.js
+### Next.js (App Router)
 1. **State bawaan React (useState, useEffect)**  
    Aplikasi hanya CRUD sederhana, jadi state lokal sudah cukup. Tidak perlu library tambahan seperti Redux atau Zustand yang kompleks.
 
