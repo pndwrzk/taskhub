@@ -22,21 +22,21 @@ Repo ini adalah monorepo yang berisi tiga aplikasi utama:
  
 ### Flutter
 1. **http ^1.1.0**  
-   Digunakan untuk komunikasi dengan API via HTTP. Ringan, stabil, dan mudah diintegrasikan ke seluruh aplikasi. Cocok untuk request REST standar maupun menangani response JSON.
+   Dipilih karena ringan, stabil, dan gampang dipakai. Ideal untuk komunikasi REST API standar, mudah menangani response JSON, dan tidak menambah kompleksitas pada aplikasi.
 
 2. **flutter_riverpod ^2.5.1**  
-   State management modern yang type-safe dan mudah ditest. Mendukung manajemen state lokal maupun global dengan arsitektur yang lebih scalable dibanding Provider biasa.
+   Dipilih karena type safe, mudah ditest, dan scalable. Mendukung manajemen state lokal maupun global dengan arsitektur yang lebih rapi dibanding Provider biasa, cocok untuk aplikasi yang berkembang besar. sehingga pengembangan, debugging, dan testing state menjadi lebih mudah dan terstruktur.
 
 ### Golang
 1. **gin-gonic/gin v1.11.0**  
-   Web framework ringan dan cepat. Memudahkan routing, middleware, dan handling HTTP request/response dengan performa tinggi. Cocok untuk membangun REST API.
+   Dipilih karena ringan, cepat, dan mudah digunakan. Mempermudah routing, middleware, dan handling HTTP request/response, sehingga ideal untuk membangun REST API dengan performa tinggi.
 
 2. **gorm.io/gorm v1.25.10**  
    ORM untuk Go. Mempermudah manipulasi database, query builder, dan migrasi schema tanpa harus menulis SQL mentah secara manual, tapi tetap fleksibel.
 
 ### Next.js (App Router)
 1. **State bawaan React (useState, useEffect)**  
-   Aplikasi hanya CRUD sederhana, jadi state lokal sudah cukup. Tidak perlu library tambahan seperti Redux atau Zustand yang kompleks.
+  Dipilih karena mempermudah manipulasi database tanpa menulis SQL mentah. Mendukung query builder, migrasi schema, dan tetap fleksibel untuk kebutuhan kompleks.
 
 
 ## Cara Menjalankan Aplikasi
