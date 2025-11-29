@@ -25,7 +25,7 @@ Repo ini adalah monorepo yang berisi tiga aplikasi utama:
    Dipilih karena ringan, stabil, dan gampang dipakai. Ideal untuk komunikasi REST API standar, mudah menangani response JSON, dan tidak menambah kompleksitas pada aplikasi.
 
 2. **flutter_riverpod ^2.5.1**  
-   Dipilih karena type safe, mudah ditest, dan scalable. Mendukung manajemen state lokal maupun global dengan arsitektur yang lebih rapi dibanding Provider biasa, cocok untuk aplikasi yang berkembang besar. sehingga pengembangan, debugging, dan testing state menjadi lebih mudah dan terstruktur.
+   Dipilih karena type safe, mudah ditest, dan scalable. Mendukung manajemen state lokal maupun global dengan arsitektur yang lebih rapi dibanding Provider biasa, sehingga pengembangan, debugging, dan testing state menjadi lebih mudah dan terstruktur.
 
 ### Golang
 1. **gin-gonic/gin v1.11.0**  
