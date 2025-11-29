@@ -65,7 +65,7 @@ Start the server
  go run cmd/api/main.go
 ```
 
-## taskhub-web(WEB)
+## taskhub-web (WEB)
 Masuk ke folder project
 ```bash
   cd taskhub-web
@@ -88,7 +88,7 @@ Start the server
 ```
 
 
-## taskhub_mobile(mobile)
+## taskhub_mobile (mobile)
 Masuk ke folder project
 ```bash
   cd taskhub_mobile
